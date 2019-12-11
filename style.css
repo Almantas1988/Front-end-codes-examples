@@ -1,0 +1,100 @@
+.elementai {
+    display: inline;
+}
+
+.header-wrapper {
+	border-bottom: 3px solid #1abc9c;
+}
+
+.strap {
+	color: rgb(31, 153, 116);
+}
+
+.didelis-taskas {
+	font-size: 50px;
+}
+
+.Features {
+	color: #1abc9c;
+}
+
+.Core {
+	color: #1abc9c;
+}
+
+.icon {
+    font-size: 50px;
+}
+
+.footer-top-wrapper {
+	background: #1abc9c;
+	padding: 20px 0;
+}
+
+.footer-bottom-wrapper {
+	background: rgb(59, 48, 48);
+	padding: 20px 0;
+}
+
+.zalia {
+    text-transform: uppercase;
+}
+
+.awesome .zalia {
+    color: white;
+}
+
+.request-form {
+	background: #1abc9c;
+}
+
+
+.mygtukas {
+	border-radius: 50px;
+}
+
+.row .Making {
+	text-transform: initial;
+}
+
+.row .Stay {
+	text-transform: initial;
+}
+
+.nav-pills .nav-link {
+	border-right: 1px solid gray;
+	border-radius: 0;
+}
+
+.nav-pills .nav-link.active {
+	background: none;
+	color: #55A79A;
+	border: 1px solid gray;
+	border-right: none;
+	border-radius: 0px;
+	border-bottom-left-radius: 2px;
+	border-top-left-radius: 2px;
+	position: relative;
+}
+
+.nav-pills .nav-link.active::before {
+	content: '';
+	height: 100%;
+	width: 4px;
+	background: #55A79A;
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+
+
+.modal-dialog {
+	max-width: 800px;
+}
+
+@media(max-width: 768px) {
+	.modal-dialog {
+		max-width: 50px;
+	}
+}
+
